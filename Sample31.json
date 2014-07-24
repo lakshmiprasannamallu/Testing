@@ -1,0 +1,82 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.position2.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "SOLUTIONS"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "SERVICES"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PPC is one of the top channels for lead generation across industry segments and almost 50% of online marketing spends are on ‘search’. Over the years, significant developments have taken place to improve"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Position2 uses a combination of best-of-breed 3rd party tools, in-house tools and best practices to manage your PPC campaigns. The tools are complemented by an expert, certified team – a powerful combination"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "We have structured our services to suit your needs – whether you are a large enterprise with over $500k in monthly search budget or a growing company with lower budgets."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Dedicated PPC account manager"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Holistic approach to keywords"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Bid management (manual & automated)"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Successfully ManagedCampaigns for100+ Clients"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Certified GAP Team Certified Agency Status"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "SERVICES"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "SERVICES"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Pay Per Click (PPC)"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Learning can never stop in a field like digital marketing. In this section, we give you access to the latest white papers, guides & webcasts authored by our in-house experts."
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
