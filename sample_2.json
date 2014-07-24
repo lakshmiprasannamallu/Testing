@@ -15,29 +15,24 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "button.dl-trigger"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "button.dl-trigger.dl-active"
-      }
+      "type": "verifyTextPresent",
+      "text": "Our innovative digital marketing solutions are designed to increase your ROI and customer base."
     },
     {
       "type": "verifyTextPresent",
-      "text": "Best of both SEO and SMM with existing assets Improves visibility of the site on search engines and social media platforms Increases relevant traffic to website resulting in increased time spent on site"
+      "text": "Enterprise Visibility Accelerator"
     },
     {
-      "type": "verifyElementPresent",
-      "locator": {
-        "type": "css selector",
-        "value": "img.img-responsive"
-      }
+      "type": "verifyTextPresent",
+      "text": "Increase your brand visibility by 40x. Position2 repurposes your existing digital assets, search optimizes and publishes them across online and social channels."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Marketing Automation"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Regardless of your lead database size, Position2 can help you set up a marketing automation service that’s in sync with your overall sales and marketing objectives."
     }
   ],
   "data": {
