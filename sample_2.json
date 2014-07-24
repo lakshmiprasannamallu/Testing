@@ -8,13 +8,6 @@
       "url": "http://www.position2.com/"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "SOLUTIONS"
-      }
-    },
-    {
       "type": "verifyTextPresent",
       "text": "Our innovative digital marketing solutions are designed to increase your ROI and customer base."
     },
