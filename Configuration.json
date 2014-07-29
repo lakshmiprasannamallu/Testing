@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.position2.com" />
+<title>Configuration.json</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Configuration.json</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>60000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>WebFontConfig = { google: { families: [ 'Roboto:400,300,500,700,100,100italic,300italic,400italic,500italic,700italic,900,900italic:latin' , 'Roboto+Condensed:300italic,400italic,700italic,400,300,700:latin'</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Marketing Automation</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Regardless of your lead database size, Position2 can help you set up a marketing automation service that’s in sync with your overall sales and marketing objectives.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Enterprise Visibility Accelerator</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Increase your brand visibility by 40x. Position2 repurposes your existing digital assets, search optimizes and publishes them across online and social channels.</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
