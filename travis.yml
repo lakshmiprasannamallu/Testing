@@ -2,5 +2,16 @@ language: php
 php:
   - 5.3
   - 5.4
+  
+addons:
+  sauce_connect: true
+  
+env:
+  global:
+    - secure: "Secure username token goes here!"
+    - secure: "Secure access key token goes here!"
+env:
+  - DB=mysql
+  
 before_script: ./.ci/before_script.sh
 script: "vendor/bin/phpunit --verbose --debug Tests"
