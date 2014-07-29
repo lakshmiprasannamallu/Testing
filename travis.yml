@@ -8,8 +8,8 @@ addons:
   
 env:
   global:
-    - secure: "Secure username token goes here!"
-    - secure: "Secure access key token goes here!"
+    - secure: "da 39 a3 ee 5e 6b 4b 0d 32 55 bf ef 95 60 18 90"
+    - secure: "9d70496d-39b1-4714-8f46-b28cfb56c8f3"
 env:
   - DB=mysql
   
